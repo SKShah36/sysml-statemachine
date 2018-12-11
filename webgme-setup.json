@@ -1,0 +1,42 @@
+{
+  "components": {
+    "plugins": {
+      "TutorialPlugin": {
+        "src": "src/plugins/TutorialPlugin",
+        "test": "test/plugins/TutorialPlugin"
+      },
+      "MyPythonPlugin": {
+        "src": "src/plugins/MyPythonPlugin",
+        "test": "test/plugins/MyPythonPlugin"
+      },
+      "ModelicaCodeGenerator": {
+        "src": "src/plugins/ModelicaCodeGenerator",
+        "test": "test/plugins/ModelicaCodeGenerator"
+      },
+      "PythonPlugin": {
+        "src": "src/plugins/PythonPlugin",
+        "test": "test/plugins/PythonPlugin"
+      },
+      "abc": {
+        "src": "src/plugins/abc",
+        "test": "test/plugins/abc"
+      },
+      "ex_python": {
+        "src": "src/plugins/ex_python",
+        "test": "test/plugins/ex_python"
+      },
+      "traverse": {
+        "src": "src/plugins/traverse",
+        "test": "test/plugins/traverse"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {
+      "PyCoreExecutor": {
+        "project": "webgme-icore",
+        "path": "node_modules/webgme-icore/src/plugins/PyCoreExecutor"
+      }
+    }
+  }
+}
