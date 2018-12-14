@@ -42,5 +42,6 @@ If you are building your deployment from scratch, having installed the dependenc
 13.2. Run the plugin. This should generate an artifact by <Example_name>.py
 14. Open the file. This is the state machine interpreter in Python. Run the file. You will see various states being traversed depending upon the guard and trigger conditions set.
 
+To checkout the plugin code from the root of your repository, navigate to src/plugins/PythonPlugin/PythonPlugin. Open __init__.py
 
 
