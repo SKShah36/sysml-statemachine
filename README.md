@@ -1,4 +1,4 @@
-# sysml
+# SysML - StateMachine
 ## Installation
 First, install the following to run:
 - [NodeJS](https://nodejs.org/en/) (v4.x.x recommended)
